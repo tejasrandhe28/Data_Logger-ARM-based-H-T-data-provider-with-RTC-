@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "kpm.o" "delay.o" "dht11.o" "lcd.o" "external_interrupts_test.o" "uart_tx.o" "uart.o" "main.o" --strict --scatter "data_logger.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\data_logger.map" -o "data_logger.axf"

@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\lcd.o"
+".\external_interrupts_test.o"
+".\uart_tx.o"
+".\uart.o"
+".\main.o"
+".\dht11.o"
+".\delay.o"
+".\kpm.o"
+--strict --scatter ".\datalogger_op.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\datalogger_op.map" -o .\datalogger_op.axf

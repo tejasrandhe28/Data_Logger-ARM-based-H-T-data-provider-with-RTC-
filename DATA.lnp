@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "delay.o" "dht11.o" "lcd.o" --strict --scatter "DATA.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DATA.map" -o "DATA.axf"

@@ -1,0 +1,27 @@
+*** Creating Trace Output File 'datalogger_op.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"lcd.o"'
+### List of Objects: adding '"external_interrupts_test.o"'
+### List of Objects: adding '"uart_tx.o"'
+### List of Objects: adding '"uart.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"dht11.o"'
+### List of Objects: adding '"delay.o"'
+### List of Objects: adding '"kpm.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "lcd.o" "external_interrupts_test.o" "uart_tx.o" "uart.o" "main.o" "dht11.o" "delay.o" "kpm.o" --strict --scatter "datalogger_op.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\datalogger_op.map" -o "datalogger_op.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'datalogger_op.axf'
+### ADS-LD Command File: 'datalogger_op.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'datalogger_op.lnp', Handle=0x0000032C
+### Writing '.lnp' file
+### ADS-LD Command file 'datalogger_op.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

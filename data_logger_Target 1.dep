@@ -1,0 +1,48 @@
+Dependencies for Project 'data_logger', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x660FB34B)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\LCD.c)(0x660FB34D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (E:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x660FB34B)
+I (lcd.h)(0x660FB34E)
+I (defines.h)(0x660FB34B)
+F (.\external_interrupts_test.c)(0x660FB34D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\external_interrupts_test.o --omf_browse .\external_interrupts_test.crf --depend .\external_interrupts_test.d)
+I (E:\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (pin_function_defines.h)(0x660FB34D)
+I (uart_declarations.h)(0x660FB34E)
+I (defines.h)(0x660FB34B)
+I (kpmdefines.h)(0x660FB34D)
+I (kpm.h)(0x660FB34D)
+I (types.h)(0x660FB34B)
+I (LCD_declarations.h)(0x660FB34B)
+I (delay.h)(0x660FB34B)
+I (E:\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+F (.\uart_tx.c)(0x660FB34D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\uart_tx.o --omf_browse .\uart_tx.crf --depend .\uart_tx.d)
+I (E:\ARM\Inc\Philips\LPC214x.h)(0x532C1500)
+I (uart0.h)(0x660FB34B)
+I (delay.h)(0x660FB34B)
+I (lcd.h)(0x660FB34E)
+F (.\uart.c)(0x660FB34E)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (E:\ARM\Inc\Philips\LPC214x.H)(0x532C1500)
+F (.\main.c)(0x660FB34F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (E:\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (delay.h)(0x660FB34B)
+I (defines.h)(0x660FB34B)
+I (lcd.h)(0x660FB34E)
+I (dht11.h)(0x660FB34C)
+I (uart0.h)(0x660FB34B)
+I (kpm.h)(0x660FB34D)
+I (types.h)(0x660FB34B)
+I (uart_declarations.h)(0x660FB34E)
+I (interrupt.h)(0x660FB34F)
+I (kpmdefines.h)(0x660FB34D)
+I (E:\ARM\ARMCC\include\stdlib.h)(0x51C7E87C)
+F (.\dht11.c)(0x660FB34B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\dht11.o --omf_browse .\dht11.crf --depend .\dht11.d)
+I (E:\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+I (delay.h)(0x660FB34B)
+I (defines.h)(0x660FB34B)
+F (.\Project\delay.c)(0x660FB351)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (.\kpm.c)(0x660FB34C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (E:\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x660FB34B)
+I (defines.h)(0x660FB34B)
+I (kpmdefines.h)(0x660FB34D)

@@ -1,0 +1,13 @@
+.\main.o: main.c
+.\main.o: E:\ARM\Inc\Philips\lpc214x.h
+.\main.o: delay.h
+.\main.o: defines.h
+.\main.o: lcd.h
+.\main.o: dht11.h
+.\main.o: uart0.h
+.\main.o: kpm.h
+.\main.o: types.h
+.\main.o: uart_declarations.h
+.\main.o: interrupt.h
+.\main.o: kpmdefines.h
+.\main.o: E:\ARM\ARMCC\bin\..\include\stdlib.h
